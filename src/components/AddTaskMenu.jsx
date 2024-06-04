@@ -12,7 +12,7 @@ export const AddTaskMenu = () => {
     };
 
     return(
-        <Box sx={{width: "85%", display:"flex", flexDirection: "column", gap: 2, alignItems: "center", borderRadius: 3, padding: 2, backdropFilter: 'blur(8px)', background: 'rgba(255, 255, 255, 0.1)'}} noValidate autoComplete="off">
+        <Box sx={{width: "90%", display:"flex", flexDirection: "column", gap: 2, alignItems: "center", borderRadius: 3, padding: 2, backdropFilter: 'blur(8px)', background: 'rgba(255, 255, 255, 0.1)'}} noValidate autoComplete="off">
                 <TextField id="outlined-basic" label="Nueva tarea" variant="outlined" fullWidth />
                 <FormControl fullWidth>
                     <InputLabel id="category-select">Categoría</InputLabel>
