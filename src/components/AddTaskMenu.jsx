@@ -29,7 +29,7 @@ export const AddTaskMenu = ({ tasks, setTasks }) => {
         const updatedTasks = [...tasks, newTask];
         setTasks(updatedTasks);
         setTaskDescription('');
-        setCategory('');
+        setTaskCategory('');
     };
 
     return (
