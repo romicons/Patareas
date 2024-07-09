@@ -90,6 +90,7 @@ export const AddTaskMenu = ({ tasks, setTasks }) => {
                 >
                     <MenuItem value={"Casa"}>Casa</MenuItem>
                     <MenuItem value={"Compras"}>Compras</MenuItem>
+                    <MenuItem value={"Educación"}>Educación</MenuItem>
                     <MenuItem value={"Mascotas"}>Mascotas</MenuItem>
                     <MenuItem value={"Otro"}>Otro</MenuItem>
                     <MenuItem value={"Trabajo"}>Trabajo</MenuItem>
