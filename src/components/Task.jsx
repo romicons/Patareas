@@ -1,9 +1,9 @@
+import { useState } from 'react';
+
 import { TableCell, TableRow, Button, Modal, Box, TextField, Typography } from "@mui/material";
 
 import { MdOutlineDelete, MdOutlineModeEdit, MdCheckCircle } from "react-icons/md";
 import { FiAlertTriangle } from "react-icons/fi";
-
-import { useState } from 'react';
 
 export const Task = ({ task, tasks, setTasks }) => {
   const { taskDescription, taskCategory, id, finished } = task;

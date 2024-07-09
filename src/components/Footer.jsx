@@ -1,7 +1,7 @@
+import { Button, Box, Typography } from "@mui/material";
+
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-
-import { Button, Box, Typography } from "@mui/material";
 
 export const Footer = () => {
     return (
