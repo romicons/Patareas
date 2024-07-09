@@ -1,7 +1,7 @@
-export const getTasks = () => {
+export const getTasksFromLs = () => {
     return JSON.parse(localStorage.getItem("tasks"));
   };
   
-  export const setTasks = (tasks) => {
+  export const setTasksFromLs = (tasks) => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
 };

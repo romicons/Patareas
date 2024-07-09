@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
-import { getTasks, setTasks } from "./utils/localStorage";
+import { getTasksFromLs, setTasksFromLs } from "./utils/localStorage";
 
-import backgroundImage from './assets/liquid-cheese.svg'
+import backgroundImage from './assets/liquid-cheese.png'
 
 import { GlobalStyles, Box } from '@mui/material'
 
@@ -12,8 +12,11 @@ import { Footer } from './components/Footer'
 
 function App() {
 
-    const [tasks, setTasks] = useState (getTasks() || []);
+  const [tasks, setTasks] = useState (getTasksFromLs() || []);
 
+  useEffect(() => {
+    setTasksFromLs(tasks);
+  }, [tasks]);
 
   return (
     <>

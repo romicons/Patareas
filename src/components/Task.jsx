@@ -1,38 +1,40 @@
-import { Box, Button, Typography, } from "@mui/material"
-
+import { TableCell, TableRow, Button, Typography } from "@mui/material";
 import { MdOutlineDelete, MdOutlineModeEdit, MdCheckCircle } from "react-icons/md";
 
+export const Task = ({ task, tasks, setTasks }) => {
+  const { taskDescription, taskCategory, id, finished } = task;
 
-export const Task = ({taskDescription, taskCategory, id, finished, tasks, setTasks}) => {
+  const handleDeleteTask = () => {
+    const updatedTasks = tasks.filter(task => task.id !== id);
+    setTasks(updatedTasks);
+  };
 
-    const handleEditTask = (id) => {
+  const handleEditTask = () => {
+    // Lógica para editar tarea
+  };
 
-    }
+  const handleCompleteTask = () => {
+    const updatedTasks = tasks.map(task =>
+      task.id === id ? { ...task, finished: !task.finished } : task
+    );
+    setTasks(updatedTasks);
+  };
 
-    const editTask = (id) => {
-        const updatedTasks = tasks.map(task => task.id !== id);
-        setTasks(updatedTasks);
-    }
-
-    return(
-        <Box sx={{display: "flex", flexFlow: "row wrap", justifyContent: "space-between", padding: 1}}>
-            <Typography>
-                {taskDescription}
-            </Typography>
-            <Typography sx={{color: '#daa034', fontWeight: 'bold'}}>
-                {taskCategory}
-            </Typography>
-            <Box>
-                <Button sx={{color: '#cb000f'}}>
-                    <MdOutlineDelete />
-                </Button>
-                <Button sx={{color: '#18171c'}}>
-                    <MdOutlineModeEdit />
-                </Button>
-                <Button sx={{color: '#00d812'}}>
-                    <MdCheckCircle />
-                </Button>
-            </Box>
-        </Box>
-    )
-}
+  return (
+    <TableRow hover role="checkbox" tabIndex={-1} key={id}>
+      <TableCell>{taskDescription}</TableCell>
+      <TableCell>{taskCategory}</TableCell>
+      <TableCell align="center">
+        <Button sx={{ color: '#cb000f' }} onClick={handleDeleteTask}>
+          <MdOutlineDelete />
+        </Button>
+        <Button sx={{ color: '#18171c' }} onClick={handleEditTask}>
+          <MdOutlineModeEdit />
+        </Button>
+        <Button sx={{ color: '#00d812' }} onClick={handleCompleteTask}>
+          <MdCheckCircle />
+        </Button>
+      </TableCell>
+    </TableRow>
+  );
+};

@@ -4,7 +4,7 @@ import { TaskTable } from './TaskTable'
 
 export const TaskContainer = ({tasks, setTasks}) => {
     return(
-        <Box sx={{width: "90%", display:"flex", flexDirection: "column", gap: 2, alignItems: "center", borderRadius: 3, padding: 2, backdropFilter: 'blur(8px)', background: 'rgba(255, 255, 255, 0.1)'}}>
+        <Box sx={{width: "95%", display:"flex", flexDirection: "column", gap: 2, alignItems: "center", borderRadius: 3, padding: 2, backdropFilter: 'blur(8px)', background: 'rgba(255, 255, 255, 0.1)'}}>
             <Typography variant='h2' sx={{fontSize: {xs:35, sm:50}, fontWeight: 'bold'}}>
                 Lista de Tareas
             </Typography>
