@@ -1,8 +1,32 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://i.imgur.com/3uj0y4Z.png" alt="Patareas Banner"> 
+  
+</div>
 
-Currently, two official plugins are available:
+<h1 align="center"><b>¡Procastinador eterno, llegó tu solución!</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
+  
+![Static Badge](https://img.shields.io/badge/React-%23346fda)
+![Static Badge](https://img.shields.io/badge/Material%20UI-%2343aaed)
+![Static Badge](https://img.shields.io/badge/useState-%234fd6ff)
+![Static Badge](https://img.shields.io/badge/useEffect-%234de7f2)
+![Static Badge](https://img.shields.io/badge/Local%20Storage-%234affdc)
+
+![Static Badge](https://img.shields.io/badge/TaskManager-%2318171c)
+![Static Badge](https://img.shields.io/badge/Responsive%20Design-%23ffffff)
+![Static Badge](https://img.shields.io/badge/Accesibility-%2318171c)
+
+![Static Badge](https://img.shields.io/badge/STATUS-FINISHED-green)
+
+</div>
+
+<p align="center">Patareas es la aplicación de gestión de tareas que estabas esperando.</p>
+
+<p>Desarrollada en <img alt="Static Badge" src="https://img.shields.io/badge/React-DAA034"> y con <img alt="Static Badge" src="https://img.shields.io/badge/Material%20UI-18171c">, esta webapp te permite mantener un listado organizado de tus tareas pendientes, permitiéndote categorizarlas y gestionarlas según su estado.</p>
+  
+<p align="center">Usando los hooks <img alt="Static Badge" src="https://img.shields.io/badge/useState-DAA034"> y <img alt="Static Badge" src="https://img.shields.io/badge/useEffect-18171c">, facilita la creación, edición y eliminación de tareas, asegurando que tus datos se guarden de manera segura en el almacenamiento local del navegador.</p>
+  
+
+
