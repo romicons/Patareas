@@ -29,10 +29,25 @@
 <p>Usando los hooks <img alt="Static Badge" src="https://img.shields.io/badge/useState-DAA034"> y <img alt="Static Badge" src="https://img.shields.io/badge/useEffect-18171c">, facilita la creación, edición y eliminación de tareas, asegurando que tus datos se guarden de manera segura en el almacenamiento local del navegador.</p>
 
 <div align="center">
-  
-![Presentation]
 
-<p align="center">Funcionalidades</i></p>
+<h2>Funcionalidades</h2>
+  
+![Create Task](https://i.imgur.com/DKbEk1C.gif)
+
+<p align="center">➕ Añade tus tareas</i></p>
+
+
+![Edit Task]
+
+<p align="center">📝 Edita tus tareas</i></p>
+
+![Change State]
+
+<p align="center">✅ Modifica su estado</i></p>
+
+![Delete Task]
+
+<p align="center">❌ Elimina tus tareas</i></p>
   
 </div>
 
