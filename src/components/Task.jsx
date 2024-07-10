@@ -76,9 +76,9 @@ export const Task = ({ task, tasks, setTasks }) => {
           backgroundColor: finished ? '#f5f5f5' : 'inherit',
         }}
       >
-        <TableCell>{taskDescription}</TableCell>
-        <TableCell>{taskCategory}</TableCell>
-        <TableCell align="center">
+        <TableCell align="left">{taskDescription}</TableCell>
+        <TableCell align="center">{taskCategory}</TableCell>
+        <TableCell align="right">
           <Button sx={{ color: '#cb000f' }} onClick={handleOpenDeleteModal}>
             <MdOutlineDelete />
           </Button>
