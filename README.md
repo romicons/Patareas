@@ -22,7 +22,7 @@
 
 </div>
 
-<p align="center">Patareas es la aplicación de gestión de tareas que estabas esperando.</p>
+<p align="center">La aplicación de gestión de tareas que estabas esperando.</p>
 
 <p>Desarrollada en <img alt="Static Badge" src="https://img.shields.io/badge/React-DAA034"> y con <img alt="Static Badge" src="https://img.shields.io/badge/Material%20UI-18171c">, esta webapp te permite mantener un listado organizado de tus tareas pendientes, permitiéndote categorizarlas y gestionarlas según su estado.</p>
   
@@ -37,21 +37,21 @@
 <p align="center">➕ Añade tus tareas</i></p>
 
 
-![Edit Task]
+![Edit Task](https://i.imgur.com/LAfMcgi.gif)
 
 <p align="center">📝 Edita tus tareas</i></p>
 
-![Change State]
+![Change State](https://i.imgur.com/53u2jEb.gif)
 
 <p align="center">✅ Modifica su estado</i></p>
 
-![Delete Task]
+![Delete Task](https://i.imgur.com/5g28G4s.gif)
 
 <p align="center">❌ Elimina tus tareas</i></p>
   
 </div>
 
-<p align="center">¡Soltá esa agenda y descubrí una nueva forma de mantener tu productividad en marcha!</p>
+<p align="center">¡Soltá esa agenda anticuada y descubrí una nueva forma de mantener tu productividad en marcha!</p>
 
 
 <div align="center">
