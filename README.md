@@ -26,7 +26,28 @@
 
 <p>Desarrollada en <img alt="Static Badge" src="https://img.shields.io/badge/React-DAA034"> y con <img alt="Static Badge" src="https://img.shields.io/badge/Material%20UI-18171c">, esta webapp te permite mantener un listado organizado de tus tareas pendientes, permitiéndote categorizarlas y gestionarlas según su estado.</p>
   
-<p align="center">Usando los hooks <img alt="Static Badge" src="https://img.shields.io/badge/useState-DAA034"> y <img alt="Static Badge" src="https://img.shields.io/badge/useEffect-18171c">, facilita la creación, edición y eliminación de tareas, asegurando que tus datos se guarden de manera segura en el almacenamiento local del navegador.</p>
+<p>Usando los hooks <img alt="Static Badge" src="https://img.shields.io/badge/useState-DAA034"> y <img alt="Static Badge" src="https://img.shields.io/badge/useEffect-18171c">, facilita la creación, edición y eliminación de tareas, asegurando que tus datos se guarden de manera segura en el almacenamiento local del navegador.</p>
+
+<div align="center">
+  
+![Presentation]
+
+<p align="center">Funcionalidades</i></p>
+  
+</div>
+
+<p align="center">¡Soltá esa agenda y descubrí una nueva forma de mantener tu productividad en marcha!</p>
+
+
+<div align="center">
+
+<img src="https://i.imgur.com/9kfXeAJ.png" width=120px alt="romicons profile picture">
+
+</div>
+
+
+<h3 align="center">romicons</h3>
+
   
 
 
