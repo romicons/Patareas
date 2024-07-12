@@ -1,9 +1,6 @@
 import { useState } from 'react';
-
 import { v4 as uuidv4 } from "uuid";
-
 import { Box, FormControl, TextField, Button, Select, InputLabel, MenuItem, FormHelperText } from '@mui/material';
-
 import { MdOutlineAddTask } from "react-icons/md";
 
 export const AddTaskMenu = ({ tasks, setTasks }) => {
@@ -47,7 +44,9 @@ export const AddTaskMenu = ({ tasks, setTasks }) => {
             finished: false,
             id: id,
         };
-        const updatedTasks = [...tasks, newTask];
+        
+        // Añadir la nueva tarea al inicio del array
+        const updatedTasks = [newTask, ...tasks];
         setTasks(updatedTasks);
         setTaskDescription('');
         setTaskCategory('');
